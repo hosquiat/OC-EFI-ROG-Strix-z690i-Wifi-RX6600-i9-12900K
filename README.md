@@ -1,3 +1,5 @@
+![neofetch](images/neofetch.png)
+
 # OpenCore EFI for AMD Ryzen Hackintosh [![tests](https://github.com/mikigal/ryzen-hackintosh/actions/workflows/tests.yml/badge.svg)](https://github.com/mikigal/ryzen-hackintosh/actions/workflows/tests.yml)
 
 ## Verified Specification
@@ -45,7 +47,6 @@
 
 2. Clone this repository and copy "BOOT" & "OC" directories to your "EFI" directory on your bootable USB. The structure should look somewhat like this: `EFI -> BOOT, OC`.
 
-
 ### SMBIOS
 
 4. Use [this tool](https://github.com/corpnewt/GenSMBIOS) to generate your unique SMBIOS info.
@@ -79,15 +80,16 @@
 ### Configuration
 
 5. You should update your BIOS to the latest version and configure it appropriately. See [BIOS Settings](#BIOS-Settings) for details.
-8. That's it! Now you can boot macOS installer.
+6. That's it! Now you can boot macOS installer.
 
 ### Post-Installation
 
 9. Copy your EFI directory onto your main drive EFI partition, you'll be able to boot the system without your bootable USB.
-11. If you have `Unknown` instead of your CPU name in About this Mac go to `PlatformInfo -> Generic -> ProcessorType` in your configuration file. Set it to `3841` if your CPU has 8 or more physical cores, else set it to `1537`.
-12. When everything work you can disable verbose mode - then you will see Apple's logo instead of logs while booting. To do it you have to remove `-v debug=0x100 keepsyms=1` from `boot-args` in your configuration file.
+10. If you have `Unknown` instead of your CPU name in About this Mac go to `PlatformInfo -> Generic -> ProcessorType` in your configuration file. Set it to `3841` if your CPU has 8 or more physical cores, else set it to `1537`.
+11. When everything work you can disable verbose mode - then you will see Apple's logo instead of logs while booting. To do it you have to remove `-v debug=0x100 keepsyms=1` from `boot-args` in your configuration file.
 
 ### Bootstrap
+
 In general, enabling Bootstrap is not required, but it will protect your OpenCore from being overriden. \
 Remember to do not enable Bootstrap on pendrive - do it only after copying OpenCore to your disk's EFI.
 
