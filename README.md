@@ -1,6 +1,6 @@
-![neofetch](images/neofetch.png)
 ![about-this-mac](images/about-this-mac.png)
 ![geekbench](images/geekbench.png)
+![neofetch](images/neofetch.png)
 
 # OpenCore EFI for AMD Ryzen Hackintosh [![tests](https://github.com/mikigal/ryzen-hackintosh/actions/workflows/tests.yml/badge.svg)](https://github.com/mikigal/ryzen-hackintosh/actions/workflows/tests.yml)
 
