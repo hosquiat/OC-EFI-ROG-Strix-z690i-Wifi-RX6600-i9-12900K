@@ -45,4 +45,6 @@
 
 **Before booting macOS remember to update BIOS to the latest version.**
 
-![Screenshot](/screenshot.png?raw=true)
+![about-this-mac](images/about-this-mac.png)
+
+![geekbench](images/geekbench.png)
