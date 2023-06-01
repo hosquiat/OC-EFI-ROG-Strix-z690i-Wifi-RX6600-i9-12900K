@@ -95,6 +95,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
+<<<<<<< HEAD
 				<data>
 				X0RTTQ==
 				</data>
@@ -113,13 +114,30 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+=======
+				<data>X0RTTQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WERTTQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
+<<<<<<< HEAD
 				<data>
 				</data>
+=======
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -133,6 +151,7 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
+<<<<<<< HEAD
 				<data>
 				R1BSVwI=
 				</data>
@@ -151,13 +170,30 @@
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+=======
+				<data>R1BSVwI=</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFBSVwI=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
+<<<<<<< HEAD
 				<data>
 				</data>
+=======
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -489,12 +525,88 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+<<<<<<< HEAD
+=======
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>IntelBluetoothFirmware.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBluetoothFirmware</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>IntelBTPatcher.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBTPatcher</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>itlwm.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/itlwm</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 		</array>
 		<key>Block</key>
 		<array/>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
+<<<<<<< HEAD
 			<data>
 			VQYKAAAAAAAAAAAAAAAAAA==
 			</data>
@@ -502,6 +614,11 @@
 			<data>
 			/////wAAAAAAAAAAAAAAAA==
 			</data>
+=======
+			<data>VQYKAAAAAAAAAAAAAAAAAA==</data>
+			<key>Cpuid1Mask</key>
+			<data>/////wAAAAAAAAAAAAAAAA==</data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>MaxKernel</key>
@@ -525,27 +642,41 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
+<<<<<<< HEAD
 				<data>
 				i4iUAQAA
 				</data>
+=======
+				<data>i4iUAQAA</data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
+<<<<<<< HEAD
 				<data>
 				</data>
+=======
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>18.0.0</string>
 				<key>Replace</key>
+<<<<<<< HEAD
 				<data>
 				uf8AAACQ
 				</data>
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+=======
+				<data>uf8AAACQ</data>
+				<key>ReplaceMask</key>
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -561,27 +692,41 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
+<<<<<<< HEAD
 				<data>
 				i4iQAQAA
 				</data>
+=======
+				<data>i4iQAQAA</data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
+<<<<<<< HEAD
 				<data>
 				</data>
+=======
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>MaxKernel</key>
 				<string>17.99.99</string>
 				<key>MinKernel</key>
 				<string>15.0.0</string>
 				<key>Replace</key>
+<<<<<<< HEAD
 				<data>
 				uQAAAACQ
 				</data>
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+=======
+				<data>uQAAAACQ</data>
+				<key>ReplaceMask</key>
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -597,26 +742,40 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
+<<<<<<< HEAD
 				<data>
 				</data>
+=======
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
+<<<<<<< HEAD
 				<data>
 				</data>
+=======
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
+<<<<<<< HEAD
 				<data>
 				ww==
 				</data>
 				<key>ReplaceMask</key>
 				<data>
 				</data>
+=======
+				<data>ww==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -695,9 +854,15 @@
 			<key>HibernateSkipsPicker</key>
 			<false/>
 			<key>HideAuxiliary</key>
+<<<<<<< HEAD
 			<true/>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
+=======
+			<false/>
+			<key>LauncherOption</key>
+			<string>Full</string>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -776,11 +941,17 @@
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
+<<<<<<< HEAD
 			<data>
 			</data>
 			<key>PasswordSalt</key>
 			<data>
 			</data>
+=======
+			<data></data>
+			<key>PasswordSalt</key>
+			<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
@@ -872,9 +1043,13 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
+<<<<<<< HEAD
 				<data>
 				AAAAAA==
 				</data>
+=======
+				<data>AAAAAA==</data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -883,12 +1058,17 @@
 				<key>revcpuname</key>
 				<string>Intel Core i9-12900K</string>
 				<key>rtc-blacklist</key>
+<<<<<<< HEAD
 				<data>
 				</data>
+=======
+				<data></data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
+<<<<<<< HEAD
 				<data>
 				Rg==
 				</data>
@@ -898,6 +1078,13 @@
 				<data>
 				ZwAAAA==
 				</data>
+=======
+				<data>Rg==</data>
+				<key>boot-args</key>
+				<string>darkwake=0 agdpmod=pikera -ctrsmt</string>
+				<key>csr-active-config</key>
+				<data>ZwAAAA==</data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -972,9 +1159,13 @@
 			<key>ProcessorType</key>
 			<integer>3842</integer>
 			<key>ROM</key>
+<<<<<<< HEAD
 			<data>
 			cM1gJhfK
 			</data>
+=======
+			<data>cM1gJhfK</data>
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1120,6 +1311,7 @@
 				<key>Path</key>
 				<string>ResetNvramEntry.efi</string>
 			</dict>
+<<<<<<< HEAD
 			<dict>
 				<key>Arguments</key>
 				<string></string>
@@ -1144,6 +1336,8 @@
 				<key>Path</key>
 				<string>OpenLinuxBoot.efi</string>
 			</dict>
+=======
+>>>>>>> 2d6dd6fd72fb8b6abea0ac6b096e183268ae6b28
 		</array>
 		<key>Input</key>
 		<dict>
