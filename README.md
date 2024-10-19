@@ -2,9 +2,9 @@
 
 ![System Info](images/system-info.png)
 
-```plaintext
-This guide is not intended for beginner, you have been warned. Please read everything before starting.
-```
+> [!WARNING]  
+> This guide is not intended for beginner, you have been warned.
+> Please read everything before starting!
 
 ### Hardware
 
