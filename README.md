@@ -10,7 +10,7 @@
 
 | Component            | Item                                                                                                                                                                                 |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Process              | [Intel Core i9-12900K 3.2 GHz](https://pcpartpicker.com/product/gGH7YJ/intel-core-i9-12900k-32-ghz-8-core-processor-bx8071512900k)                                                   |
+| Processor            | [Intel Core i9-12900K 3.2 GHz](https://pcpartpicker.com/product/gGH7YJ/intel-core-i9-12900k-32-ghz-8-core-processor-bx8071512900k)                                                   |
 | **Motherboard**      | [Asus ROG STRIX Z690-I GAMING WIFI](https://pcpartpicker.com/product/yzWzK8/asus-rog-strix-z690-i-gaming-wifi-mini-itx-lga1700-motherboard-rog-strix-z690-i-gaming-wifi)             |
 | **Memory**           | [TEAMGROUP T-Force Vulcan 64 GB (2 x 32 GB) DDR5-6000](https://pcpartpicker.com/product/kvfxFT/teamgroup-t-force-vulcan-64-gb-2-x-32-gb-ddr5-6000-cl38-memory-flbd564g6000hc38adc01) |
 | **Storage (NVME)**   | [Samsung 990 Pro 1 TB M.2-2280](https://pcpartpicker.com/product/FsqPxr/samsung-990-pro-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p1t0bw)                                  |
@@ -32,10 +32,9 @@ Please understand all OpenCore configuration by reading [Configuration.pdf](http
 
 ### Step By Step Installation Guide
 
-1.  [BIOS configuration](BIOS.md)
-2.  [macOS installation media](INSTALLER.md)
-3.  [OpenCore EFI](OC.md)
-4.  [Post Installation](POST_INSTALL.md)
+1.  [BIOS configuration](docs/BIOS.md)
+2.  [macOS installation media](docs/INSTALLER.md)
+3.  [OpenCore EFI](docs/OC.md)
 
 ### What's Working/What's Not
 
